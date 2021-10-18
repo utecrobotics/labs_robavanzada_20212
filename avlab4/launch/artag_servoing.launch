@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <include file="$(find scorbot_er_gazebo)/launch/artag.launch"/>
+  <include file="$(find scorbot_er_gazebo)/launch/servoing.launch"/>
+
+</launch>
